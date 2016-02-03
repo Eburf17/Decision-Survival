@@ -1,3 +1,11 @@
+survives = 0
+deaths = 0
+print("///////////////////////////////////////////////////////")
+print("Hello, Welcome To Don't Die!")
+print("You Make Choices That Decide If You Live Or Die!")
+print("Good Luck, Your Going To Need It!")
+print("To Play Just Type Yes Or No To The Questions")
+print("Say Amount To Check Your Stats")
 print("///////////////////////////////////////////////////////")
 print("")
 print("1st Question!")
@@ -84,4 +92,3 @@ if "amount" in ask2:
     print(survives)
     print("Deaths")
     print(deaths)
-    
