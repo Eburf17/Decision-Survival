@@ -1,11 +1,3 @@
-survives = 0
-deaths = 0
-print("///////////////////////////////////////////////////////")
-print("Hello, Welcome To Don't Die!")
-print("You Make Choices That Decide If You Live Or Die!")
-print("Good Luck, Your Going To Need It!")
-print("To Play Just Type Yes Or No To The Questions")
-print("Say amount To Check Your Stats")
 print("///////////////////////////////////////////////////////")
 print("")
 print("1st Question!")
@@ -14,6 +6,9 @@ print("You Get Hit By A Car, But You Survive.")
 print("Yes... Crawl Off The Road.")
 print("No... Call Emergency Services.")
 print("Yes Or No?")
+deaths +=0
+survives +=0
+
 ask = input ()
 if "yes" in ask:
     print("You Survived!")
@@ -64,13 +59,16 @@ if "yes" in ask2:
     print("You Are Unlikley To Survive If You Run For The Exit!")
     print("You Would Probably Die From Debris!")
     print("Please Help Me By Adding More Scenarios!")
+    print(survives)
+    print(deaths)
     deaths+=1
     
 if "no" in ask2:
     print("You Survived!")
     print("Please Help Me By Adding More Scenarios!")
     survives+=1
-    
+    print(survives)
+    print(deaths)
 if "amount" in ask:
     print("Survives")
     print(survives)
